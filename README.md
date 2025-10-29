@@ -1,65 +1,49 @@
-# 📒 Phonebook Management System in C
+### 📘 Project Description: Phonebook Management System in C
 
-This project is an **academic team project** developed as part of our coursework in C programming.  
-It is a console-based **Phonebook Management System** that allows users to store, view, search, modify, and delete contact information.  
-The project demonstrates the use of **structured programming, file handling, and data validation** in C.
+This project is an **academic team project** developed as part of our coursework in C programming at **Daffodil International University**.  
+The **Phonebook Management System** is a **console-based application** built using the **C language**, designed to efficiently manage personal contact information.  
+It allows users to **add, view, search, edit, and delete** contacts while ensuring **data validation** and **persistent storage** using a binary file system (`phonebook.dat`).
 
----
+The program demonstrates the use of **structures**, **file handling**, **input validation**, and **modular programming** in C.  
+A dedicated function `isValidEmail()` ensures that only properly formatted emails are stored, maintaining data integrity.  
+The system features a **menu-driven interface** that provides a user-friendly experience for smooth navigation through different operations.
 
-## 🧩 Features
-✅ Add New Contact – Save full contact details such as name, address, parents’ names, mobile number, and email.  
-✅ List All Contacts – View all saved records in a clean format.  
-✅ Search Contact – Find a contact by name quickly.  
-✅ Modify Contact – Edit existing contact details.  
-✅ Delete Contact – Safely remove a record from storage.  
-✅ Email Validation – Validates the format of the entered email.  
-✅ File-Based Storage – Stores data persistently using binary files (.dat).  
-✅ User-Friendly Interface – Simple and menu-driven console design.
+This project helped us gain hands-on experience in **C programming**, **structured data management**, and **team-based software development**.  
+It reflects our understanding of **core programming concepts**, including **data structures, modular code design, and file I/O operations**.
 
 ---
 
-## 🏗️ System Architecture
-**Core Components:**
-- `struct person` – Defines the data structure for each contact.
-- `isValidEmail()` – Checks and validates email syntax.
-- File operations – `fopen()`, `fwrite()`, `fread()`, `fseek()`, `remove()`, `rename()`.
-- Core functions – `menu()`, `addrecord()`, `listrecord()`, `modifyrecord()`, `deleterecord()`, `searchrecord()`.
-- Input handling – `got()` function for safe text input.
+### 👥 Team Information
+**Team Leader:** Masud Rana  
+**Team Members:** (Mahmudul Hasan Rifat)
 
 ---
 
-## 🧠 Function Overview
-| Function | Description |
-|-----------|-------------|
-| menu() | Displays the main menu and handles user choices. |
-| addrecord() | Adds a new contact record. |
-| listrecord() | Lists all stored contacts. |
-| searchrecord() | Searches a record by name. |
-| modifyrecord() | Updates an existing record. |
-| deleterecord() | Deletes a record permanently. |
-| isValidEmail() | Validates entered email format. |
-| got() | Handles safe input from user (custom gets()). |
+### 🏫 Academic Details
+**Institution:** Daffodil International University  
+**Course:** Programming and Problem Solving  
+**Project Type:** Academic Team Project  
+**Development Environment:** Code::Blocks
 
 ---
 
-## 🖥️ User Interface
-The program runs in a command-line environment with a text-based interface.  
-The main menu appears as follows:
-
-=======================================
-WELCOME TO THE PHONEBOOK
-
-1. Add New
-2. List
-3. Exit
-4. Edit
-5. Search
-6. Delete
-
+### 🎯 Key Highlights
+- Console-based user interface  
+- File-based data persistence (`.dat` file)  
+- Email format validation  
+- Add, search, edit, and delete functionalities  
+- Structured and modular code design  
 
 ---
 
-## 🧾 Example Usage
+### 🧠 Learning Outcomes
+- Hands-on experience in **C file handling**  
+- Implementation of **structured data storage using `struct`**  
+- Understanding of **error handling and input validation**  
+- Improved skills in **team collaboration** and **software documentation**
 
-### Adding a Record
+---
 
+### 🪪 License
+This project is open-source and distributed under the **MIT License**.  
+You are free to use, modify, and share it with proper attribution.
