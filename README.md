@@ -46,3 +46,12 @@ The project demonstrates the use of **structured programming, file handling, and
 The program runs in a command-line environment with a text-based interface.  
 The main menu appears as follows:
 
+=======================================
+WELCOME TO THE PHONEBOOK
+
+1. Add New
+2. List
+3. Exit
+4. Edit
+5. Search
+6. Delete
