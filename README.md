@@ -55,3 +55,11 @@ WELCOME TO THE PHONEBOOK
 4. Edit
 5. Search
 6. Delete
+
+
+---
+
+## 🧾 Example Usage
+
+### Adding a Record
+
